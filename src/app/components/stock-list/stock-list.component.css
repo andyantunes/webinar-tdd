@@ -1,0 +1,35 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.stocks {
+  padding-inline: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.stocks .head {
+  width: 240px;
+  display: flex;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.stocks .head .title {
+  width: 120px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.stock {
+  display: flex;
+}
+
+.stock .name,
+.stock .price {
+  width: 120px;
+  font-size: 1.25rem;
+}
